@@ -6,11 +6,10 @@ for i in range(1,len(arr)):
     t=arr[i]
     for j in range(i,0,-1):
         if(t<arr[j-1]):
-            f=f+1
-            arr[j]=arr[j-1]
-        else:
-            break
-    if(f>0):
+            f=1
+            arr[j]=arr[j-1]        
+            
+    if(f!=0):
         arr[j-1]=t
         f=0
 
