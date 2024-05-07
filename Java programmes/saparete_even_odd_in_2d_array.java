@@ -11,7 +11,7 @@ public class saparete_even_odd_in_2d_array
         System.out.println("Enter the length of array below 10: ");
         int length=input.nextInt();
 
-        for (int i=0;i<=length;i++)
+        for (int i=0;i<length;i++)
         {
             for (int j=0;j<length;j++)
             {
